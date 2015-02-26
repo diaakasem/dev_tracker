@@ -33,4 +33,4 @@ def task_start(trelloid, user, hashed):
     })
     return ""
 
-run(host='localhost', port=8765, debug=True)
+run(host='0.0.0.0', port=8765, debug=True)
